@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SextaTelaJogo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1E201E"
+        android:fitsSystemWindows="true">
+
+        <TextView
+            android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Que país é esse?"
+        android:textAlignment="center"
+        android:textColor="#1F316F"
+        android:background="#D1E9F6"
+        android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        app:srcCompat="@drawable/pais6" />
+
+        <RadioGroup
+            android:id="@+id/rbgRespostas6"
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+            <RadioButton
+                android:id="@+id/rbtResposta21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Botsuana"
+                android:textColor="#D1E9F6" />
+
+        <RadioButton
+            android:id="@+id/rbtResposta22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zâmbia"
+        android:textColor="#D1E9F6" />
+
+            <RadioButton
+                android:id="@+id/rbtResposta23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Costa do Marfim"
+                android:textColor="#D1E9F6" />
+
+        <RadioButton
+            android:id="@+id/rbtResposta24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Etiópia"
+        android:textColor="#D1E9F6" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnResponder6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="testaResposta"
+    android:backgroundTint="#1F316F"
+    android:text="Responder"
+    android:textColor="#D1E9F6"
+    android:enabled="false"/>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizDasBandeiras</string>
+    <string name="parabens_emoji">😃</string>
+    <string name="falha_emoji">😔</string>
+</resources>
